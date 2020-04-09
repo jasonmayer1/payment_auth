@@ -5,7 +5,13 @@ gem "jets", git: "https://github.com/tongueroo/jets.git", submodules: true, bran
 
 # Include mysql2 gem if you are using ActiveRecord, remove next line
 # and config/database.yml file if you are not
-gem "mysql2", "~> 0.5.2"
+gem "postgresql"
+gem 'pg'
+
+gem 'interactor'
+
+# JSON Web Token
+gem 'jwt'
 
 gem "dynomite"
 

@@ -1,4 +1,6 @@
 Jets.application.routes.draw do
+  resources :authorization, only: %i[create delete]
+  get "invoices/:id", to: "invoices#show"
   root "jets/public#show"
 
   # The jets/public#show controller can serve static utf8 content out of the public folder.

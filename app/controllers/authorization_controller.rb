@@ -3,13 +3,7 @@ class AuthorizationController < ApplicationController
 
   # POST /authorizations
   def create
-    @authorization = Authorization.new(authorization_params)
-
-    if @authorization.save
-      render json: @authorization, status: :created
-    else
-      render json: @authorization.errors, status: :unprocessable_entity
-    end
+    render json: [], status: :ok
   end
 
   # DELETE /authorizations/1

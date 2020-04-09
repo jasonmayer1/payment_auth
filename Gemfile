@@ -10,6 +10,9 @@ gem 'pg'
 
 gem 'interactor'
 
+# JSON Web Token
+gem 'jwt'
+
 gem "dynomite"
 
 # development and test groups are not bundled as part of the deployment

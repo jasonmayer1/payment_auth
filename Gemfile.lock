@@ -168,6 +168,7 @@ GEM
       loofah (~> 2.2, >= 2.2.2)
     jmespath (1.4.0)
     json (2.3.0)
+    jwt (2.2.1)
     kramdown (2.1.0)
     launchy (2.5.0)
       addressable (~> 2.7)
@@ -242,6 +243,7 @@ DEPENDENCIES
   dynomite
   interactor
   jets!
+  jwt
   launchy
   pg
   postgresql

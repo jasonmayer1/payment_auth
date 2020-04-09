@@ -1,5 +1,5 @@
 class AuthorizationController < ApplicationController
-#  before_action :set_authorization, only: [:show, :update, :delete]
+  skip_before_action :authenticate_request!, only: %i[create delete]
 
   # POST /authorizations
   def create

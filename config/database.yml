@@ -2,7 +2,7 @@ default: &default
   adapter: postgresql
   pool: <%= ENV["DB_POOL"] || 5  %>
   database: <%= ENV['DB_NAME'] || 'payment_auth_development' %>
-  username: <%= ENV['DB_USER'] || 'root' %>
+  username: <%= ENV['DB_USER'] || 'jasonmayer' %>
   password: <%= ENV['DB_PASS'] %>
   host: <%= ENV["DB_HOST"] || 'localhost' %>
   url: <%= ENV['DATABASE_URL'] %> # takes higher precedence than other settings
